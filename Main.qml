@@ -141,7 +141,7 @@ ApplicationWindow {
                         }
                     }
                 };
-                xhr.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=" + cityName.text + "&APPID=d53591817ca78fc2df369434dc339ac0");
+                xhr.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=" + cityName.text + "&APPID=ВОТ СЮДА ВСТАВИТЬ API");
                 xhr.send();
             }
         }
