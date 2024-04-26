@@ -13,7 +13,7 @@ function getWeather(city) {
         }
     }
 
-    var url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=d53591817ca78fc2df369434dc339ac0";
+    var url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=ВОТ СЮДА ВСТАВИТЬ API";
     xhr.open("GET", url);
     xhr.send();
 }
